@@ -7,4 +7,11 @@ class SectionModel extends Section {
     return SectionModel(name: json['name'], description: json['description'], id: json['id']);
   }
 
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'name': name,
+      'description': description,
+    };
+  }
 }
