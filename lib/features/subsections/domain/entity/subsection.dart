@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:retention_ai/features/sections/domain/entities/section.dart';
+import 'package:retention_ai/features/sections/domain/entity/section.dart';
 
 class Subsection extends Equatable {
 

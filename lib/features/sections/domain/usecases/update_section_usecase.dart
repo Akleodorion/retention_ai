@@ -1,5 +1,5 @@
-import 'package:retention_ai/features/sections/domain/entities/section.dart';
-import 'package:retention_ai/features/sections/domain/repositories/section_repository.dart';
+import 'package:retention_ai/features/sections/domain/entity/section.dart';
+import 'package:retention_ai/features/sections/domain/repository/section_repository.dart';
 
 class UpdateSectionsUsecase {
   final SectionRepository _repository;

@@ -1,5 +1,5 @@
 
-import 'package:retention_ai/features/sections/domain/entities/section.dart';
+import 'package:retention_ai/features/sections/domain/entity/section.dart';
 
 abstract class SectionRepository {
   List<Section> fetchSections();
